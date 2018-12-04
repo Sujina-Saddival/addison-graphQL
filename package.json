@@ -29,8 +29,11 @@
   "license": "MIT",
   "dependencies": {
     "@hpe/addison-engine": "0.x",
-    "joi": "10.x",
-    "dotenv": "4.0.0"
+    "dotenv": "4.0.0",
+    "graphql": "^14.0.2",
+    "graphql-subscriptions": "^0.5.8",
+    "graphql-tools": "^3.0.2",
+    "joi": "10.x"
   },
   "devDependencies": {
     "lab": "14.x",
