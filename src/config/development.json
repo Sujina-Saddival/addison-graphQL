@@ -1,0 +1,30 @@
+{
+	"registrations": [
+		{
+			"plugin": {
+				"register": "@hpe/entmon-metrics",
+				"options": {
+					"enableentmon": false,
+					"environment": "development"
+				}
+			}
+		},
+		{
+			"plugin": {
+				"register": "@hpe/entmon-registration",
+				"options": {
+					"environment": "development"
+				}
+			}
+		}
+	],
+	"connections": [
+		{
+			"host": "localhost",
+			"port": "8080",
+			"routes": {
+				"log": true
+			}
+		}
+	]
+}
